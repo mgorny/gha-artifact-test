@@ -20,6 +20,7 @@ jobs:
 
   download:
     name: download
+    needs: upload
     runs-on: ubuntu-latest
     steps:
     - name: download
